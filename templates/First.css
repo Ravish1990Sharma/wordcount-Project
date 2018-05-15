@@ -1,0 +1,26 @@
+		
+	h2 {
+		color: rgba(255,255,0,0.6);
+		background: green;
+		border: 5px rgba(255,255,0,0.6) solid;
+	}
+
+	select	{
+		color: orange;
+	}
+	label {
+		color: blue;
+	}
+
+	div {
+		color: rgba(0,255,255,1);
+		background: rgba(255,0,255,0.5);
+	}
+
+	body {
+		background: url(https://static.vecteezy.com/system/resources/previews/000/123/126/non_2x/vector-wood-texture.jpg);
+		background-size: cover;
+		background-repeat: no-repeat;
+		/*rgba(100,100,100,0.8)*/;
+
+	}

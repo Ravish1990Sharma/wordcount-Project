@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>
+		Landing page
+	</title>
+
+	<!-- <style type="text/css">
+		
+	h2 {
+		color: red;
+	}
+
+	select	{
+		color: orange;
+	}
+	label {
+		color: blue;
+	}
+	</style> -->
+
+	<link rel="stylesheet" type="text/css" href="First.css">
+</head>
+<body>
+
+<h2>Register</h2>
+
+<form action="{% url 'tiger' %}">
+<Label for="FN">First Name:</Label><input id="FN" type="text" name="First" placeholder="Ravish" required>
+<label for="LN">Last Name: </label><input id="LN" type="text" name="Last" placeholder="Sharma" required>
+<p>
+	<label for="M">Male:</label> <input id="M" type="radio" name="Gender" value="Male">
+	<label for="F">Female:</label> <input id="F" type="radio" name="Gender" value="Female">
+	<label for="O">Other:</label> <input id="O" type="radio" name="Gender" value="Other">
+</p>
+<p>
+	<label for="EM">Email: </label><input id="EM" type="email" name="Email ID" >
+	<label><input name="Key" type="password" required pattern=".{5,10}" required title="5 to 10 characters please!"></label>
+</p>
+Birthday:
+	<select name="Month">
+		<option>January</option>
+		<option>February</option>
+		<option>March</option>
+	</select>
+	<select name="Day">
+		<option>20</option>
+		<option>21</option>
+		<option>22</option>
+	</select>
+	<select name="Year">
+		<option>1990</option>
+		<option>1980</option>
+		<option>2000</option>
+	</select>
+<div>
+	I agree to the terms and conditions
+	<label><input type="checkbox" name="Agree"></label> 
+</div>
+<button>Submit</button>
+</form>
+<!-- <form action="{% url 'cv' %}">
+	Personal details
+	<input type="text" name="newinfo">
+	<input type="Submit" value="Details">
+</form> -->
+</body>
+</html>

@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<!-- <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" /> -->
+	<title>Count Page</title>
+</head>
+<body>
+MENTIONED DETAILS ARE:
+<br>
+<br>
+NAME: {{name}}
+<br>
+GENDER: {{gender}}
+<br>
+EMAIL CONTACT: {{email}}
+
+<form action="{% url 'cv' %}">
+<h2>This is Count Page</h2>
+<textarea rows="10px" cols="30px" name="fulltext"></textarea>
+<br>
+<label>Please Click Here after Typing <input type="submit" value="COUNT!"></label>
+</form>
+</body>
+
+</html>

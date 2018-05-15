@@ -1,0 +1,21 @@
+img	{
+	width: 30%;
+	/*height: 30%;*/
+	float: left;
+	margin: 1.66%;
+}
+p	{
+	width: 30%;
+	font-family: sacramento;
+	color: gray;
+	margin: 1.66% auto;
+	font-weight: 400;
+	text-align: center;
+	font-size: 30px;
+	border-bottom: 2px gray solid;
+	/*text-transform: uppercase;*/
+}
+span	{
+color: black;
+font-weight: 700;
+}
